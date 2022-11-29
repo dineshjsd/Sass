@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: white;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.cover {
+  background-color: #F2DEBA;
+  height: 200px;
+  padding: 20px;
+}
+
+.about {
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+}
+.about p {
+  background-color: #FFEFD6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.gallery {
+  background-color: #0E5E6F;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.gallery .photo {
+  height: 200px;
+  width: 200px;
+  background-color: #F2DEBA;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #3A8891;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
